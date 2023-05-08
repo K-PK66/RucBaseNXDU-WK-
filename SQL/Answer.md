@@ -7,8 +7,11 @@
 - Assignment end date: 2023-04-17 23:00:00.0
 ## List of Questions & Answers
 **1. Query the student ID and grade of students who have taken CS-101(course_id) in Fall semester.**
+
 Answer:
 
 ```sql
-
+SELECT ID, grade
+FROM takes
+WHERE course_id='CS-101' and semester='Fall';
 ```
