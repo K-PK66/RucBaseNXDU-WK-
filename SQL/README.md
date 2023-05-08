@@ -36,7 +36,26 @@
 **15. Query student ID of students who have taken 3 or more courses.**
 
 **16. Query the student ID of students who have obtained 85 or more points in 2 or more courses and number of courses with 85 or more points for these students.**
-## Answers:
+## Status
+|  Question №  |  Status  | Marks Obtained | Max Marks Allotted |
+| :----: | :----: | :----: | :----: |
+| 1  | Correct | 10 | 10 |
+| 2  | Correct | 10 | 10 |
+| 3  | Correct | 10 | 10 |
+| 4  | Correct | 10 | 10 |
+| 5  | Correct | 10 | 10 |
+| 6  | Correct | 10 | 10 |
+| 7  | Correct | 10 | 10 |
+| 8  | Correct | 10 | 10 |
+| 9  | Correct | 10 | 10 |
+| 10  | Correct | 10 | 10 |
+| 11  | Correct | 10 | 10 |
+| 12  | Correct | 10 | 10 |
+| 13  | Correct | 10 | 10 |
+| 14  | Correct | 10 | 10 |
+| 15  | Correct | 10 | 10 |
+| 16  | Correct | 10 | 10 |
+## Answers
 **1. Query the student ID and grade of students who have taken CS-101(course_id) in Fall semester.**
 
 ```sql
@@ -176,22 +195,3 @@ FROM takes
 WHERE grade-85>=0
 GROUP BY ID HAVING Count(*)>=2;
 ```
-## Status
-|  Question №  |  Status  | Grade | Max Marks Allotted |
-| :----: | :----: | :----: | :----: |
-| 1  | Correct | 10 | 10 |
-| 2  | Correct | 10 | 10 |
-| 3  | Correct | 10 | 10 |
-| 4  | Correct | 10 | 10 |
-| 5  | Correct | 10 | 10 |
-| 6  | Correct | 10 | 10 |
-| 7  | Correct | 10 | 10 |
-| 8  | Correct | 10 | 10 |
-| 9  | Correct | 10 | 10 |
-| 10  | Correct | 10 | 10 |
-| 11  | Correct | 10 | 10 |
-| 12  | Correct | 10 | 10 |
-| 13  | Correct | 10 | 10 |
-| 14  | Correct | 10 | 10 |
-| 15  | Correct | 10 | 10 |
-| 16  | Correct | 10 | 10 |
