@@ -178,7 +178,7 @@ GROUP BY ID HAVING Count(*)>=2;
 ```
 ## Status
 |  Question №  |  Status  | Grade
-|  ----  | ----  | ---- |
+| :----: | :----: | :----: |
 | 1  | Correct | 10 |
 | 2  | Correct | 10 |
 | 3  | Correct | 10 |
