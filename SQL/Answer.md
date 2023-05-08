@@ -16,7 +16,7 @@ FROM takes
 WHERE course_id='CS-101' and semester='Fall';
 ```
 
-**2.Query the student ID and name of students who have taken CS-101(course_id) in Fall semester.
+**2. Query the student ID and name of students who have taken CS-101(course_id) in Fall semester.
 
 Answer:
 
@@ -26,7 +26,7 @@ FROM takes, student
 WHERE course_id='CS-101' and semester='Fall' and takes.ID=student.ID;
 ```
 
-**3.Query the student ID, name and grade of the students who have taken 'Database System Concepts'(course title), and the query results are sorted in descending order of grade.**
+**3. Query the student ID, name and grade of the students who have taken 'Database System Concepts'(course title), and the query results are sorted in descending order of grade.**
 
 Answer:
 
@@ -35,4 +35,48 @@ SELECT takes.ID, student.name, takes.grade
 FROM takes, student
 WHERE takes.ID=student.ID and takes.course_id='CS-347'
 ORDER BY grade DESC;
+```
+
+**4. Query the student ID of students who have taken CS-101 or CS-190(course_id).**
+
+Answer:
+
+```sql
+SELECT DISTINCT ID
+FROM takes
+WHERE course_id='CS-101' or course_id='CS-190';
+```
+
+**5. Query the name of students who have taken CS-101 or CS-190(course_id).**
+
+Answer:
+
+```sql
+SELECT name
+FROM student
+WHERE ID in (
+  SELECT DISTINCT ID FROM takes WHERE course_id='CS-101' or course_id='CS-190'
+);
+```
+
+**6. Query the student ID of students who do not take CS-101(course_id).**
+
+Answer:
+
+```sql
+SELECT DISTINCT ID
+FROM student
+WHERE NOT EXISTS(
+  SELECT * FROM takes WHERE student.ID=ID and course_id='CS-101'
+);
+```
+
+**7. Query the course id of the prerequisite courses of CS-190(course_id).**
+
+Answer:
+
+```sql
+SELECT prereq_id
+FROM prereq
+WHERE course_id='CS-190';
 ```
