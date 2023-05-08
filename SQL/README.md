@@ -4,7 +4,7 @@
 - Default dataset for data generation:  sample_data_small.sql    
 - Default dataset(s) for evaluation:  sample_data_small.sql    
 - Assignment end date: 2023-04-17 23:00:00.0
-## List of Questions & Answers
+## List of Questions
 **1. Query the student ID and grade of students who have taken CS-101(course_id) in Fall semester.**
 
 **2. Query the student ID and name of students who have taken CS-101(course_id) in Fall semester.**
@@ -36,3 +36,5 @@
 **15. Query student ID of students who have taken 3 or more courses.**
 
 **16. Query the student ID of students who have obtained 85 or more points in 2 or more courses and number of courses with 85 or more points for these students.**
+## Answers:
+[Here](https://github.com/K-PK66/RucBaseNXDU-WK-/edit/main/SQL/Answer.md)
