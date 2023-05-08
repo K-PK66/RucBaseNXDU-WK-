@@ -8,7 +8,7 @@
 ## List of Questions & Answers
 1. **Query the student ID and grade of students who have taken CS-101(course_id) in Fall semester.**
 
-; Answer:
+&nbsp; Answer:
 
 ; ```sql
 ```
