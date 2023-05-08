@@ -34,5 +34,5 @@
 **14. Query the total credits of elective courses taken by student whose student id(sno) is '00128'.**
 
 **15. Query student ID of students who have taken 3 or more courses.**
-`
+
 **16. Query the student ID of students who have obtained 85 or more points in 2 or more courses and number of courses with 85 or more points for these students.**
