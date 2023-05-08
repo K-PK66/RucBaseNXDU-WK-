@@ -177,21 +177,21 @@ WHERE grade-85>=0
 GROUP BY ID HAVING Count(*)>=2;
 ```
 ## Status
-|  Question №  |  Status  | Grade
-| :----: | :----: | :----: |
-| 1  | Correct | 10 |
-| 2  | Correct | 10 |
-| 3  | Correct | 10 |
-| 4  | Correct | 10 |
-| 5  | Correct | 10 |
-| 6  | Correct | 10 |
-| 7  | Correct | 10 |
-| 8  | Correct | 10 |
-| 9  | Correct | 10 |
-| 10  | Correct | 10 |
-| 11  | Correct | 10 |
-| 12  | Correct | 10 |
-| 13  | Correct | 10 |
-| 14  | Correct | 10 |
-| 15  | Correct | 10 |
-| 16  | Correct | 10 |
+|  Question №  |  Status  | Grade | Max Marks Allotted |
+| :----: | :----: | :----: | :----: |
+| 1  | Correct | 10 | 10 |
+| 2  | Correct | 10 | 10 |
+| 3  | Correct | 10 | 10 |
+| 4  | Correct | 10 | 10 |
+| 5  | Correct | 10 | 10 |
+| 6  | Correct | 10 | 10 |
+| 7  | Correct | 10 | 10 |
+| 8  | Correct | 10 | 10 |
+| 9  | Correct | 10 | 10 |
+| 10  | Correct | 10 | 10 |
+| 11  | Correct | 10 | 10 |
+| 12  | Correct | 10 | 10 |
+| 13  | Correct | 10 | 10 |
+| 14  | Correct | 10 | 10 |
+| 15  | Correct | 10 | 10 |
+| 16  | Correct | 10 | 10 |
